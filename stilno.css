@@ -1,0 +1,132 @@
+body{
+	background-image:url(BG.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.container{
+	width: 800px;
+	height: 600px;
+	margin: auto;
+	/*background-image: url(BG.png);*/
+}
+.empty-space{
+	width: inherit;
+	height: 100px;
+}
+.button-page{
+	width: inherit;
+	height: 50px;
+}
+.deco-element{
+	width: 30%;
+	height: 0px;
+	/*background: rgba(100, 134, 117, 1);*/
+	/*background-color: #ff6c23;*/
+	padding-right: 10px;
+	padding-left: 10px;
+	border-right: 30px solid transparent;
+	border-bottom: 50px solid #ff6c23;
+	float: left;
+	position: relative;
+	z-index: 2;
+	text-align: center;
+}
+.logo{
+	text-align: center;
+}
+.buttons{
+	width: 60%;
+	height: 80%;
+	/*border: 1px solid black;*/
+	padding-left: 100px;
+	background: rgba(255, 255, 255,.7);
+	position: relative;
+	z-index: 1;
+	left: 220px;
+	top: 10px;
+}
+.button-line{
+	width: 480px;
+	height: 40px;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+/*	border: 1px solid black;*/
+	position: relative;
+	bottom: 50px;
+}
+.button{
+	width: 85px;
+	height: 25px;
+	padding-top: 11px;
+	padding-bottom: 4px;
+	color: blue;
+	/*border: 1px solid black;*/
+	text-align: center;
+	font-size: 15px;
+	color: #1a5fc7;
+	font-family: sans-serif;
+
+}
+.button:hover{
+	cursor: pointer;
+	background: rgba(255, 255, 255,.4);
+	text-decoration: underline;
+}
+.based{
+	width: 95%;
+	height: 60vh;
+	padding-right: 2.5%;
+	padding-left: 2.5%;
+	margin: auto;
+	background-color: #ff6c23;
+}
+.showcase{
+	width: 300px;
+	height: 250px;
+	float: left;
+}
+.pic-round{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background-size: no-repeat;
+	background-position: center;
+	background-size: 150px 150px;
+	border: 2px solid white;
+}
+.pic1{
+	background-image: url(pic1.png);
+}
+.pic2{
+	background-image: url(pic2.png);
+}
+.newsboard{
+	width: 300px;
+	height: 400px;
+	float: right;
+}
+.list-of-news{
+	font-size: 30px;
+}
+.checkit:hover{
+	color: blue;
+	cursor: pointer;
+	text-decoration: underline;
+}
+.deco-footer{
+	float: right;
+	margin-right: 30px;
+	width: 300px;
+	border-right: 20px solid transparent;
+	border-left: 20px solid transparent;
+	border-top: 25px solid #ff6c23;
+}
+.footer{
+	width: inherit;
+	height: 14px;
+	color: black;
+	padding-top: 6px;	
+	text-align: center;
+	font-family:monospace;
+	font-size: 14px;
+}
